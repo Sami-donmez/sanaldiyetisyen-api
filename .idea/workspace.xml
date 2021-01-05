@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5eff01d4-79b0-4486-a1f6-81a39b6eadc6" name="Default Changelist" comment="" />
+    <list default="true" id="5eff01d4-79b0-4486-a1f6-81a39b6eadc6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Admin/Form1Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Http/Controllers/Admin/Form1Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Admin/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Http/Controllers/Admin/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Form/Form1Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Http/Controllers/Form/Form1Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Form/Form2Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Http/Controllers/Form/Form2Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/admin/ayarlar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/admin/ayarlar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/admin/form1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/admin/form1.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/admin/form1detay.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/admin/form1detay.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/admin/layout/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/admin/layout/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/admin/log.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/admin/log.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/admin/uye-ekle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/admin/uye-ekle.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/admin/uye-guncelle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/admin/uye-guncelle.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/admin/uye.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/admin/uye.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/components/message.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/admin/components/message.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/user/ayarlar.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/user/bolum.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/user/dashboard.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/user/ekipman.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/user/hat.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/user/layout/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/user/saha-detay.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/user/saha.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/benimsaham/user/unite.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/front/form1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/front/form1.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +41,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -147,6 +179,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ldvzeXNTZlVYoA0qh9inKvTfSS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -154,6 +187,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -199,6 +233,7 @@
       <workItem from="1607940054589" duration="18281000" />
       <workItem from="1607963366229" duration="46000" />
       <workItem from="1608320434224" duration="1545000" />
+      <workItem from="1609702205022" duration="2401000" />
     </task>
     <servers />
   </component>
@@ -210,6 +245,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="397" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1607942222786" />
+    <state x="447" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1609716296783">
+      <screen x="0" y="27" width="1329" height="741" />
+    </state>
+    <state x="447" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1329.741@0.27.1329.741" timestamp="1609716296782" />
     <state x="315" y="211" width="689" height="380" key="NewPhpClassDialog" timestamp="1607961311898">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -218,9 +257,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="460" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1607940792957" />
-    <state x="320" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1608320510024">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="311" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1609702213124">
+      <screen x="0" y="27" width="1329" height="741" />
     </state>
+    <state x="311" y="225" key="com.intellij.ide.util.TipDialog/0.27.1329.741@0.27.1329.741" timestamp="1609702213124" />
     <state x="320" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1608320510024" />
     <state x="230" y="94" width="868" height="606" key="find.popup" timestamp="1607940760617">
       <screen x="0" y="27" width="1366" height="741" />
@@ -230,9 +270,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="328" y="174" key="run.anything.popup/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1607950288211" />
-    <state x="327" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607961111964">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="318" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1609703141865">
+      <screen x="0" y="27" width="1329" height="741" />
     </state>
+    <state x="318" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1329.741@0.27.1329.741" timestamp="1609703141865" />
     <state x="327" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1607961111964" />
   </component>
 </project>

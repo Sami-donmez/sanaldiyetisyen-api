@@ -1,8 +1,8 @@
-@extends('benimsaham.user.layout.app')
+@extends('admin.admin.layout.app')
 
 @section('title','Admin Paneli')
 
-@section('sidebar-title','Müşteri Paneli')
+@section('sidebar-title','Admin Paneli')
 @section('content')
 
 @endsection

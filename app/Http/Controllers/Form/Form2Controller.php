@@ -18,7 +18,7 @@ class Form2Controller extends Controller
     {
         $data=$request->all();
 
-        view()->share('employee',$data);
+        //view()->share('employee',$data);
         $zipname=time().uniqid();
         $filename2=uniqid().'.pdf';
         $pdf2 = PDF::loadView('pdf.form31', $data)->save(base_path('/storage/temp/'.$filename2));

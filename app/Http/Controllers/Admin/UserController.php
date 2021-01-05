@@ -11,12 +11,12 @@ class UserController extends Controller
 {
     public function index(){
         $data=User::all();
-        return view('benimsaham.admin.uye',['data'=>$data]);
+        return view('admin.admin.uye',['data'=>$data]);
     }
 
     public function addIndex(){
 
-        return view('benimsaham.admin.uye-ekle');
+        return view('admin.admin.uye-ekle');
     }
     public function addUser(Request $request)
     {
@@ -52,7 +52,7 @@ class UserController extends Controller
     }
     public function updateIndex($id){
         $data=User::find($id);
-        return view('benimsaham.admin.uye-ekle',['data'=>$data]);
+        return view('admin.admin.uye-ekle',['data'=>$data]);
     }
     public function updateUser($id,Request $request)
     {

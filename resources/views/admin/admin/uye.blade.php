@@ -1,4 +1,4 @@
-@extends('benimsaham.admin.layout.app')
+@extends('admin.admin.layout.app')
 
 @section('title','Sahalar')
 
@@ -28,7 +28,7 @@
                         <td>{{$row->email}}</td>
                         <td>
                             @if($row->role=="user")
-                                Müşteri
+                                ögrenci
                             @else
                                 Yetkili
                             @endif

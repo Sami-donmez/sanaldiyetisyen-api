@@ -1,12 +1,12 @@
-@extends('benimsaham.admin.layout.app')
+@extends('admin.admin.layout.app')
 
-@section('title','Log Kayıtları')
+@section('title','Sahalar')
 
-@section('sidebar-title','Sahalar')
+@section('sidebar-title','Foreign Student Application Forms')
 @section('content')
     <div class="card">
         <div class="card-header">
-            <h3 class="card-title">Sahalar</h3>
+            <h3 class="card-title">Başvurular</h3>
         </div>
         <!-- /.card-header -->
         <div class="card-body">
@@ -14,33 +14,33 @@
                 <thead>
                 <tr>
                     <th>#</th>
-                    <th>İp adresi</th>
-                    <th>Tablo</th>
-                    <th>İşlem id</th>
-                    <th>İşlem</th>
-                    <th>Tarih</th>
+                    <th>Ögrenci Adı</th>
+                    <th>Anabilim Dalı</th>
+                    <th>Gno</th>
+                    <th>İşlemler</th>
                 </tr>
                 </thead>
                 <tbody>
                 @foreach($data as $row)
-                    <tr>
-                        <td>{{$loop->index}}</td>
-                        <td>{{$row->user}}</td>
-                        <td>{{$row->tablo}}</td>
-                        <td>{{$row->islem}}</td>
-                        <td>{{$row->islem_id}}</td>
-                        <td>{{$row->created_at}}</td>
-                    </tr>
+                <tr>
+                    <td>{{$loop->index}}</td>
+                    <td>{{$row->ad}} {{$row->soyadi}}</td>
+                    <td>{{$row->departman()->first()->ad}}({{$row->departman()->first()->ad_en}})</td>
+                    <td>{{$row->gno}}</td>
+                    <td>
+                        <a href="{{route('admin.form1.detay',['id'=>$row->id])}}" class="btn btn-xs btn-success"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+
+                    </td>
+                </tr>
                 @endforeach
                 </tbody>
                 <tfoot>
                 <tr>
                     <th>#</th>
-                    <th>İp adresi</th>
-                    <th>Tablo</th>
-                    <th>İşlem id</th>
-                    <th>İşlem</th>
-                    <th>Tarih</th>
+                    <th>Ögrenci Adı</th>
+                    <th>Anabilim Dalı</th>
+                    <th>Gno</th>
+                    <th>İşlemler</th>
                 </tr>
                 </tfoot>
             </table>

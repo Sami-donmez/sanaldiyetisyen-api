@@ -9,10 +9,10 @@ class AdminController extends Controller
 {
     public function index()
     {
-        return view('benimsaham.admin.dashboard');
+        return view('admin.admin.dashboard');
     }
     public function logIndex()
     {
-        return view('benimsaham.admin.log');
+        return view('admin.admin.log');
     }
 }

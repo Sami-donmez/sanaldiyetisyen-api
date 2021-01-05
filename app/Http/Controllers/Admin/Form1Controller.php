@@ -11,11 +11,11 @@ class Form1Controller extends Controller
     public function index()
     {
         $data=Form1::all();
-        return view('benimsaham.admin.form1',["data"=>$data]);
+        return view('admin.admin.form1',["data"=>$data]);
     }
     public function detay($id)
     {
         $data=Form1::find($id);
-        return view('benimsaham.admin.form1detay',['row'=>$data]);
+        return view('admin.admin.form1detay',['row'=>$data]);
     }
 }

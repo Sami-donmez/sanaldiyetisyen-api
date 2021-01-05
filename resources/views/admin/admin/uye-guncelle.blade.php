@@ -1,4 +1,4 @@
-@extends('benimsaham.admin.layout.app')
+@extends('admin.admin.layout.app')
 
 @section('title','Admin Paneli')
 
@@ -38,7 +38,7 @@
                 <label class="col-md-4 control-label" for="selectbasic">yetki</label>
                 <div class="col-md-8">
                     <select id="selectbasic5" name="yetki" class="form-control">
-                        <option value="user" {{$data->role=="user"?"checked":""}}>Müşteri</option>
+                        <option value="user" {{$data->role=="user"?"checked":""}}>ögrenci</option>
                         <option value="admin" {{$data->role=="admin"?"checked":""}}>Yetkili</option>
                     </select>
                 </div>

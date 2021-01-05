@@ -127,7 +127,7 @@
         <!-- Main content -->
         <div class="content">
             <div class="container-fluid">
-                @include('benimsaham.components.message')
+                @include('admin.components.message')
                 @yield('content')
             </div>
             <!-- /.container-fluid -->

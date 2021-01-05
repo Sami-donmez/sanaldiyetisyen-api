@@ -33,7 +33,7 @@ class HomeController extends Controller
     public function logs()
     {
         $data=Log::all();
-        return view('benimsaham.admin.log',['data'=>$data]);
+        return view('admin.admin.log',['data'=>$data]);
     }
     public  function logout(){
         Auth::logout();

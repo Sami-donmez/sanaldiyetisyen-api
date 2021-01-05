@@ -1,5 +1,5 @@
 
-@extends('benimsaham.admin.layout.app')
+@extends('admin.admin.layout.app')
 
 @section('title','Admin Paneli')
 

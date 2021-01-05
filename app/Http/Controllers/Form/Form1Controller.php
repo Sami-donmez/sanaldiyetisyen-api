@@ -15,12 +15,16 @@ class Form1Controller extends Controller
 
     public function add(Request $request)
     {
+
+     //pasaport yukleme
         $passportname= time().'-'.uniqid().'.'.$request->back_img->extension();
         $request->back_img->move(public_path('passport'), $passportname);
+        //pasaport sorgulama fonksiyonu
         $durum=pasaport(asset('passport/'.$passportname));
         if ($durum==false){
             return redirect(url()->current())->with('error','Pasaport belgesi geçerli degildir.');
         }
+        //verileri dogrulama
         $request->validate([
            'name'=>'required',
            'surname'=>'required',
@@ -40,7 +44,7 @@ class Form1Controller extends Controller
             'whydoapply'=>'required'
 
         ]);
-
+        //form 1 nesnesi olusturuyor
         $form=new Form1();
         $form->ad=$request->name;
         $form->soyadi=$request->surname;
@@ -75,7 +79,9 @@ class Form1Controller extends Controller
         $form->durum=0;
         $form->pasaport_ulke=$request->passportcountry;
         $form->basvuru_nedeni=$request->whydoapply;
+        //log ekleme yapılıyor
         logEkle('foreign student form',$form->id,'form ekleme');
+        //nesneyi veritabanınna kayıt ediyor
         if ($form->save()){
             return redirect(route('tesekkur_en'));
         }else{

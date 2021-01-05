@@ -37,7 +37,7 @@
 
             <!-- Your first column here -->
             <form id="form-signin" class="form-signin form" action="{{route('form-1.post')}}" method="post" enctype="multipart/form-data">
-                @include('benimsaham.components.message')
+                @include('admin.components.message')
                 <div id="required">
                     <h4>* Please fill in required fields below.
                         <br>* Upload the pdf formats of the required documents.<br>* Upload the jpg or png formats of the passport documents.
